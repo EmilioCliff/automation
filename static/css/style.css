@@ -1,0 +1,23 @@
+body {
+    background-image: url('/static/images/haha.jpg');
+    background-size: cover;
+    background-color: #2B2A4C;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.centered-div {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    outline: none;
+}
+.footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{%block content%}
+<div class="centered-div" style="background-color: #5F6F52; margin: 0; backround-image: url('static/images/hacker.jpg')">
+<main>
+    <h1 style="color: black">Bien - Time</h1>
+    <p class="lead" style="font-size: 18px; color: black; font-size: 8">And I'm Hoping You Forgive Me<br>
+        Everything Takes Time<br>
+        {}<br>
+        <a href="{{ url_for('sele', number=number, link=link) }}" class="btn btn-dark">😊</a>
+        <<< accept
+    </p>
+  </main>
+</div>
+{% endblock %}

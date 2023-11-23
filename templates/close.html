@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container" style="background-image: ">
+    <div class="card">
+        <h1 class="card-header">Submited Data</h1>
+        <div class="card-body">
+            {% for _ in range(number) %}
+            <h1 class="card-title">{{ added[0] }}</h1>
+            <p class="card-text"> Email: {{added[1]}} Reg: {{added[2]}} Phone_No: {{added[3]}} Course: {{added[4]}} School: {{added[5]}}</p>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
